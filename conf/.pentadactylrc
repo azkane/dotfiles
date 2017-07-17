@@ -1,0 +1,8 @@
+"7307
+
+loadplugins '\.(js|penta)$'
+group user
+set cdpath=''
+set hintkeys=aoeuidhtns
+
+" vim: set ft=pentadactyl:
