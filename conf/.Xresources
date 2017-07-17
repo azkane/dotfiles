@@ -1,0 +1,74 @@
+! special
+*.foreground:   #c5c8c6
+*.background:   #263238
+*.cursorColor:  #c5c8c6
+
+! black
+*.color0:       #212d32
+*.color8:       #37474f
+
+! red
+*.color1:       #ec5f67
+*.color9:       #f77669
+
+! green
+*.color2:       #8bd649
+*.color10:      #c3e88d
+
+! yellow
+*.color3:       #f1e655
+*.color11:      #f8e71c
+
+! blue
+*.color4:       #85678f
+*.color12:      #5f819d
+
+! magenta
+*.color5:       #7986cb
+*.color13:      #82b1ff
+
+! cyan
+*.color6:       #5c7e8c
+*.color14:      #80cbc4
+
+! white
+*.color7:       #707880
+*.color15:      #cdd3de
+
+Xft.antialias:  1
+Xft.autohint:   0
+Xft.dpi:        96
+Xft.hinting:    1
+Xft.hintstyle:  hintfull
+Xft.lcdfilter:  lcddefault
+Xft.rgba:       rgb
+
+
+URxvt.loginShell:       true
+URxvt.internalBorder:   3
+URxvt.lineSpace:        0
+
+! Meslo Setup
+URxvt.allow_bold:           false
+URxvt*font: xft:meslo lg s for powerline:regular:pixelsize=16
+URxvt*imFont: xft:meslo lg s for powerline:regular:pixelsize=16
+URxvt*letterSpace: -2
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+URxvt.scrollBar_right:      false
+
+! Perl extensions
+URxvt.perl-ext-common:      default,clipboard,matcher,font-size
+URxvt.matcher.button:       1
+URxvt.urlLauncher:          firefox
+ 
+! Cursor
+URxvt.cursorBlink:          true
+URxvt.cursorColor:          #657b83
+URxvt.cursorUnderline:      false
+
+! Fix Home/End
+URxvt*keysym.Home: \033[1~
+URxvt*keysym.End: \033[4~
