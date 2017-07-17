@@ -1,0 +1,32 @@
+imap jj <Esc>
+
+set surround
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set wrapscan
+set showmode
+
+let mapleader = " "
+map <leader>v :action $Paste<CR>
+map <leader>s :action GotoSuperMethod<CR>
+map <leader>i :action ImplementMethods<CR>
+map <leader>o :action OverrideMethods<CR>
+map <leader>d :action GotoDeclaration<CR>
+map <leader>g :action ChangesView.Commit<CR>
+map <leader>l :action IntroduceVariable<CR>
+map <leader>t :action AceAction<CR>
+map <leader>u :action ShowUsages<CR>
+map <leader>r :action Refactorings.QuickListPopupAction<CR>
+map <leader>c :action IntroduceConstant<CR>
+map <leader>f :action ToggleFullScreen<CR> 
+map <leader>b :action RecentChangedFiles<CR>
+map <leader>s :action SurroundWith<CR>
+
+
+map - :action ToggleDistractionFreeMode<CR>
+nnoremap <c-o> :action Back<cr>
+nnoremap <c-i> :action Forward<cr>
+nnoremap g/ :action Find <cr>
+
