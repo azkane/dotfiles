@@ -1,8 +1,8 @@
+" vim: set ft=pentadactyl:
 "7307
 
 loadplugins '\.(js|penta)$'
 group user
 set cdpath=''
-set hintkeys=aoeuidhtns
-
-" vim: set ft=pentadactyl:
+set hintkeys=aoeuidhtns 
+highlight Hint font: bold 16px "Droid Sans Mono", monospace !important; margin: -.2ex; padding: 0 0 0 1px; outline: 1px solid rgba(0, 0, 0, .1); background: rgba(255, 248, 231, .8); color: black;
